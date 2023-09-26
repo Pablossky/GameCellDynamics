@@ -5,7 +5,7 @@ export const NotFound = () => {
     const navigate = useNavigate();
     useEffect(() => {
         setTimeout(() => {
-            navigate("/GameCellDynamics/#")
+            navigate("/home")
         }, 5000)
     }, []);
 

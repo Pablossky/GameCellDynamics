@@ -23,6 +23,7 @@ export const Navigation = () => {
                         <DropdownButton variant="dark" menuVariant="dark" className="dropdown-item-button" title="Models" >
                             <Dropdown.Item><LinkContainer to="/prisonersdilemma"><Nav.Link>Prisoner's Dilemma</Nav.Link></LinkContainer></Dropdown.Item>
                             <Dropdown.Item><LinkContainer to="/hawkdove"><Nav.Link>Hawk-Dove</Nav.Link></LinkContainer></Dropdown.Item>
+                            <Dropdown.Item><LinkContainer to="/hawkdovespace"><Nav.Link>Hawk-Dove Space</Nav.Link></LinkContainer></Dropdown.Item>
                         </DropdownButton>
                             <LinkContainer to="/other"><Nav.Link>Other</Nav.Link></LinkContainer>
                         </Nav>
