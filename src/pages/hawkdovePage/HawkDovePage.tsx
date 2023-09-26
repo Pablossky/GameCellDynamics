@@ -1,6 +1,6 @@
-import './HomePage.css'
+import './HawkDovePage.css'
 
-export const HomePage = () => {
+export const HawkDovePage = () => {
      
     return (
         <>

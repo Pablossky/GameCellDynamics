@@ -1,6 +1,6 @@
-import './HomePage.css'
+import './PrisonersPage.css'
 
-export const HomePage = () => {
+export const PrisonersPage = () => {
      
     return (
         <>
