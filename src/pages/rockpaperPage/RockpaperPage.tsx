@@ -48,7 +48,15 @@ export const RockpaperPage: React.FC = () => {
     };
 
     const drawPoints = () => {
-      ctx.clearRect(0, 0, canvas.width, canvas.height); // Wyczyść obszar canvas przed rysowaniem
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+      // Dodaj etykiety osi x i y
+      ctx.fillStyle = 'black';
+      ctx.font = '12px Arial';
+      ctx.fillText('Rock', canvas.width - 20, canvas.height - 5);
+      ctx.fillText('Scissors', 5, canvas.height - 5);
+      ctx.fillText('Paper', canvas.width / 2 - 15, 15);
+
       points.forEach((point) => {
         ctx.fillStyle = point.color;
         ctx.fillRect(point.x, point.y, 2, 2);
