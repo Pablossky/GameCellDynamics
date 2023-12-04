@@ -15,7 +15,7 @@ export const WhatisgamePage = () => {
 
             <p>Założenie o "generycznych wypłatach" sugeruje, że można zignorować zbiory o miarze zero w przestrzeni parametrów. Innymi słowy, nawet jeśli teoretycznie możliwe są pewne kombinacje parametrów, mające zerową szansę na wystąpienie, można je zaniedbać. Autor używa funkcji G na przestrzeni parametrów, aby zastosować to założenie. Na przykład, jeśli funkcja G(θ, γ) = θ - γ, to założenie o generycznych wypłatach oznacza, że θ i γ są różne.</p>
 
-            <p>Ponadto, autor podkreśla, że wybór zbioru A (lub funkcji G_n) powinien nastąpić przed wyborem konkretnych parametrów. Założenie o generycznych wypłatach jest użyteczne w analizie, ale może istnieć sytuacje, gdzie pay-off spełniają pewne nielosowe zależności wynikające z analizy modelu biologicznego.</p>
+            <p>Wybór zbioru A (lub funkcji G_n) powinien nastąpić przed wyborem konkretnych parametrów. Założenie o generycznych wypłatach jest użyteczne w analizie, ale może istnieć sytuacje, gdzie pay-off spełniają pewne nielosowe zależności wynikające z analizy modelu biologicznego.</p>
 
             <p>W kontekście gier biologicznych, autor rozważa również sytuacje, w których populacja jest opisana jako mieszanka różnych strategii (strategii czystych lub mieszanych). Przy tym podejściu, oczekiwane wypłaty dla danej strategii są obliczane jako średnia ważona wypłat związanych z różnymi grami w populacji.</p>
 
