@@ -18,9 +18,8 @@ export const Navigation = () => {
                         <Nav className="mr-auto">
                         <DropdownButton variant="dark" menuVariant="dark" className="dropdown-item-button" title="Theory" >
                             <Dropdown.Item><LinkContainer to="/theory"><Nav.Link>Theory</Nav.Link></LinkContainer></Dropdown.Item>
-                            <Dropdown.Item><LinkContainer to="/theory2"><Nav.Link>Models</Nav.Link></LinkContainer></Dropdown.Item>
                         </DropdownButton>
-                        <DropdownButton variant="dark" menuVariant="dark" className="dropdown-item-button" title="Models" >
+                        <DropdownButton variant="dark" menuVariant="dark" className="dropdown-item-button" title="Simulators" >
                             <Dropdown.Item><LinkContainer to="/prisonersdilemma"><Nav.Link>Prisoner's Dilemma</Nav.Link></LinkContainer></Dropdown.Item>
                             <Dropdown.Item><LinkContainer to="/hawkdove"><Nav.Link>Hawk-Dove</Nav.Link></LinkContainer></Dropdown.Item>
                             <Dropdown.Item><LinkContainer to="/hawkdovespace"><Nav.Link>Hawk-Dove Space</Nav.Link></LinkContainer></Dropdown.Item>
