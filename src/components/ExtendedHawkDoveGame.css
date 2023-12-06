@@ -1,0 +1,17 @@
+/* ExtendedHawkDoveGame.css */
+
+.hawk-dove-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .hawk-dove-table th, .hawk-dove-table td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .hawk-dove-table th {
+    background-color: #f2f2f2; /* Add background color for header cells */
+  }
+  

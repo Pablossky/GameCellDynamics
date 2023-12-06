@@ -2,6 +2,7 @@ export { HomePage } from "./homePage/HomePage";
 export { ModelPage } from "./modelPage/ModelPage";
 export { TheoryPage } from "./theoryPage/TheoryPage";
 export { WhatisgamePage } from "./whatisgamePage/WhatisgamePage";
+export { ExtendedHawkDovePage } from "./extendedhawkdovePage/ExtendedHawkDovePage";
 export { MS_Haigh } from "./mshaighPage/MshaighPage";
 export { BiologymodelPage } from "./biologymodelPage/BiologymodelPage";
 export { RockpaperPage } from "./rockpaperPage/RockpaperPage";
