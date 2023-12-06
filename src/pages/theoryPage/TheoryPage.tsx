@@ -16,8 +16,8 @@ export const TheoryPage = () => {
                     <button className="btn btn-primary mr-2">What is Game?</button>
                 </Link>
 
-                <Link to="/section2">
-                    <button className="btn btn-success mr-2">Section 2</button>
+                <Link to="/biologymodels">
+                    <button className="btn btn-success mr-2">Biology Models</button>
                 </Link>
 
                 <Link to="/section3">
