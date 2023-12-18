@@ -1,5 +1,5 @@
 import { HashRouter, Routes, Route } from "react-router-dom";
-import { HomePage, TheoryPage, ModelPage, HawkDovePage, PrisonersPage, HawkDoveSpacePage, NotFound, WhatisgamePage, RockpaperPage, BiologymodelPage, MS_Haigh, ExtendedHawkDovePage } from "./pages";
+import { HomePage, TheoryPage, ModelPage, HawkDovePage, PrisonersPage, HawkDoveSpacePage, NotFound, WhatisgamePage, RockpaperPage, BiologymodelPage, MS_Haigh, ExtendedHawkDovePage, SIRModelPage } from "./pages";
 import { MainLayout } from "./layout";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -18,6 +18,7 @@ function App() {
           <Route path="/mshaigh" element={<MS_Haigh/>} />
           <Route path="/biologymodels" element={<BiologymodelPage/>} />
           <Route path="/hawkdove" element={<HawkDovePage/>} />
+          <Route path="/sir" element={<SIRModelPage/>} />
           <Route path="/extendedhawkdove" element={<ExtendedHawkDovePage/>} />
           <Route path="/rockpaperscissors" element={<RockpaperPage/>} />
           <Route path="/hawkdovespace" element={<HawkDoveSpacePage/>} />

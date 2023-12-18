@@ -25,6 +25,7 @@ export const Navigation = () => {
                             <Dropdown.Item><LinkContainer to="/extendedhawkdove"><Nav.Link>Extended Hawk-Dove</Nav.Link></LinkContainer></Dropdown.Item>
                             <Dropdown.Item><LinkContainer to="/hawkdovespace"><Nav.Link>Hawk-Dove Space</Nav.Link></LinkContainer></Dropdown.Item>
                             <Dropdown.Item><LinkContainer to="/rockpaperscissors"><Nav.Link>Rock, Paper, Scissors</Nav.Link></LinkContainer></Dropdown.Item>
+                            <Dropdown.Item><LinkContainer to="/sir"><Nav.Link> SIR Model</Nav.Link></LinkContainer></Dropdown.Item>
                             <Dropdown.Item><LinkContainer to="/mshaigh"><Nav.Link> MS.Haigh</Nav.Link></LinkContainer></Dropdown.Item>
                         </DropdownButton>
                             <LinkContainer to="/other"><Nav.Link>Other</Nav.Link></LinkContainer>

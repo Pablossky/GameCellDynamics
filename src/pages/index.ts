@@ -9,4 +9,5 @@ export { RockpaperPage } from "./rockpaperPage/RockpaperPage";
 export { HawkDovePage } from "./hawkdovePage/HawkDovePage";
 export { HawkDoveSpacePage } from "./hawkdovespacePage/HawkDoveSpacePage";
 export { PrisonersPage } from "./prisonersPage/PrisonersPage";
+export { SIRModelPage } from "./sirPage/SirPage";
 export { NotFound } from "./NotFound";
