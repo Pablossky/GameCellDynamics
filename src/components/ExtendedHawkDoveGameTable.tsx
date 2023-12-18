@@ -4,52 +4,44 @@ import './ExtendedHawkDoveGame.css';
 const ExtendedHawkDoveGame = () => {
   return (
     <div>
-      <h2>Rozszerzona Gra Jastrząb i Gołąb</h2>
       <table className="hawk-dove-table">
         <thead>
           <tr>
             <th>Strategie</th>
-            <th>Jastrząb</th>
-            <th>Gołąb</th>
-            <th>Odpretiator</th>
-            <th>Tyran</th>
+            <th>Jastrząb (Hawk)</th>
+            <th>Gołąb (Dove)</th>
+            <th>Odwet (Retaliator)</th>
+            <th>Tyran (Bully)</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>Zachowanie</td>
-            <td>Obydwoje się pokazują, każde wygrywa z prawdopodobieństwem 1/2</td>
-            <td>Obydwoje walczą aż do momentu, gdy jeden zostanie ranny</td>
-            <td>Obydwoje pokazują się jak Gołębie</td>
-            <td>Obydwoje eskalują, jeden od razu się wycofuje bez ran</td>
+            <td>Jastrząb (Hawk)</td>
+            <td>Obaj walczą, dopóki jeden nie zostanie zraniony</td>
+            <td>H eskaluje, a D wycofuje się</td>
+            <td>Nasila się, R odpowiada i walczą, aż jeden z nich zostanie ranny</td>
+            <td>Obydwa nasilają się, ale B następnie się wycofuje</td>
           </tr>
           <tr>
-            <td>Jastrząb</td>
-            <td>Eskaluje, a Gołąb się wycofuje</td>
-            <td>Hawk escalates, Retaliator responds, and they fight until one is injured</td>
-            <td>Both display as Doves</td>
-            <td>Bully escalates, Retaliator responds, Bully retreats</td>
+            <td>Gołąb (Dove)</td>
+            <td>H eskaluje, a D wycofuje się</td>
+            <td>Oba pojawiają się, każdy wygrywa z prawdopodobieństwem 1/2</td>
+            <td>Oba wyświetlają się jako D</td>
+            <td>B eskaluje, a D cofa się</td>
           </tr>
           <tr>
-            <td>Gołąb</td>
-            <td>Hawk escalates and Dove retreats</td>
-            <td>Both display as Doves</td>
-            <td>Bully escalates, Retaliator responds, Bully retreats</td>
-            <td>Both display as Doves</td>
+            <td>Odwet (Retaliator)</td>
+            <td>Nasila się, R odpowiada i walczą, aż jeden z nich zostanie ranny</td>
+            <td>Oba wyświetlają się jako D</td>
+            <td>Oba pojawiają się jako gołębie</td>
+            <td>B eskaluje, R odpowiada, B wycofuje się</td>
           </tr>
           <tr>
-            <td>Odpretiator</td>
-            <td>Both escalate but Bully then retreats</td>
-            <td>Both escalate, Retaliator responds, and they fight until one is injured</td>
-            <td>Both display as Doves</td>
-            <td>Both escalate, one retreats immediately with no injury</td>
-          </tr>
-          <tr>
-            <td>Tyran</td>
-            <td>Hawk escalates, Retaliator responds, and they fight until one is injured</td>
-            <td>Bully escalates and Dove retreats</td>
-            <td>Both display as Doves</td>
-            <td>Both escalate, one retreats immediately with no injury</td>
+            <td>Tyran (Bully)</td>
+            <td>Obydwa nasilają się, ale B następnie się wycofuje</td>
+            <td>B eskaluje, a D cofa się</td>
+            <td>B eskaluje, R odpowiada, B wycofuje się</td>
+            <td>Oba nasilają się, jeden wycofuje się natychmiast bez obrażeń</td>
           </tr>
         </tbody>
       </table>
