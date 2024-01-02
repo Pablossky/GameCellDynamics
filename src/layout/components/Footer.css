@@ -1,0 +1,10 @@
+/* Footer.css */
+#footer {
+  /* Domyślne style dla tekstu */
+  color: black;
+}
+
+.dark-mode #footer {
+  /* Dodaj białą kolor dla tekstu w trybie nocnym */
+  color: white;
+}

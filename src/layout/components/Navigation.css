@@ -1,0 +1,24 @@
+/* Navigation.css */
+.navbar-gradient {
+    background-color: #4ea9ff; /* Kolor tła w trybie nocnym */
+    color: white;
+  }
+  
+  .navbar-gradient.dark-mode {
+    background-color: #10212c; /* Kolor tła w trybie dziennym */
+    color: white !important;
+  }
+
+.dropdown-item-button {
+  padding: 2px;
+  color: white;
+}
+
+.dropdown-item-button.dark-mode {
+    background-color: #1f3341; /* Kolor tła przycisków dropdown w trybie dziennym */
+    color: white;
+  }
+
+.navbar {
+  color: white;
+}
