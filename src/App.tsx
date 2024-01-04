@@ -20,6 +20,7 @@ const App: React.FC = () => {
             element={<MainLayout isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />}
           >
             <Route path="/" element={<HomePage />} />
+            <Route path="/home" element={<HomePage />} />
             <Route path="/model" element={<ModelPage />} />
             <Route path="/theory" element={<TheoryPage />} />
             <Route path="/whatisgame" element={<WhatisgamePage />} />
