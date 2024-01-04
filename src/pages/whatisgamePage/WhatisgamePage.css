@@ -1,0 +1,23 @@
+/* TheoryPage.css */
+.container-padding {
+    padding: 20px; /* Add padding to the container */
+  }
+  
+  .row-justified {
+    display: flex;
+    justify-content: space-between; /* Justify content in columns */
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+  .col-text-justify {
+    text-align: justify; /* Justify text in columns */
+    margin-bottom: 20px; /* Add margin between columns */
+  }
+  
+  .buttonList {
+    margin-top: 20px;
+  }
+  
+  /* Add more styles as needed */
+  

@@ -1,10 +1,15 @@
-/* Footer.css */
+.footer {
+  transition: background-color 0.3s ease;
+}
+
 #footer {
   /* Domyślne style dla tekstu */
-  color: black;
+  transition: background-color 0.3s ease;
+  color: black !important;
 }
 
 .dark-mode #footer {
   /* Dodaj białą kolor dla tekstu w trybie nocnym */
-  color: white;
+  transition: background-color 0.3s ease;
+  color: white !important;
 }

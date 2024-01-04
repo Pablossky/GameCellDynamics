@@ -1,7 +1,3 @@
-*{
-  padding: 0;
-  margin: 0;
-}
 
 .App {
   text-align: center;
@@ -40,4 +36,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Style dla trybu jasnego */
+.body-mode-light {
+  background-color: #ffffff; /* Kolor tła w trybie jasnym */
+  color: #000000; /* Kolor tekstu w trybie jasnym */
+}
+
+/* Style dla trybu ciemnego */
+.body-mode-dark {
+  background-color: #333333; /* Kolor tła w trybie ciemnym */
+  color: #ffffff; /* Kolor tekstu w trybie ciemnym */
 }

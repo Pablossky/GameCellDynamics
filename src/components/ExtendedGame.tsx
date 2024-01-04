@@ -45,22 +45,22 @@ const ExtendedGame: React.FC = () => {
 
   const calculatePayoffs = (): void => {
     const newPayoffs: Payoffs = {
-      hawkHawk: 1/2 * params.v - 1/2 * params.c,
-      hawkDove: 2 * 1/2 * params.v,
-      hawkRetaliator: 1/2 * params.v - 1/2 * params.c + params.e,
-      hawkBully: 2 * 1/2 * params.v,
+      hawkHawk: 1 / 2 * params.v - 1 / 2 * params.c,
+      hawkDove: 2 * 1 / 2 * params.v,
+      hawkRetaliator: 1 / 2 * params.v - 1 / 2 * params.c + params.e,
+      hawkBully: 2 * 1 / 2 * params.v,
       doveHawk: 0,
-      doveDove: 1/2 * params.v,
-      doveRetaliator: 1/2 * params.v - params.e,
+      doveDove: 1 / 2 * params.v,
+      doveRetaliator: 1 / 2 * params.v - params.e,
       doveBully: 0,
-      retaliatorHawk: 1/2 * params.v - 1/2 * params.c - params.e,
-      retaliatorDove: 1/2 * params.v + params.e,
-      retaliatorRetaliator: 1/2 * params.v,
-      retaliatorBully: 2 * 1/2 * params.v,
+      retaliatorHawk: 1 / 2 * params.v - 1 / 2 * params.c - params.e,
+      retaliatorDove: 1 / 2 * params.v + params.e,
+      retaliatorRetaliator: 1 / 2 * params.v,
+      retaliatorBully: 2 * 1 / 2 * params.v,
       bullyHawk: 0,
-      bullyDove: 2 * 1/2 * params.v,
+      bullyDove: 2 * 1 / 2 * params.v,
       bullyRetaliator: 0,
-      bullyBully: 1/2 * params.v,
+      bullyBully: 1 / 2 * params.v,
     };
 
     setPayoffs(newPayoffs);
@@ -74,7 +74,7 @@ const ExtendedGame: React.FC = () => {
   return (
     <Container>
       <Row className="justify-content-md-center">
-      <h2>Symulator</h2>
+        <h2>Symulator</h2>
         <Col md="6">
           <Form onSubmit={handleSubmit}>
             <Form.Group controlId="paramV">
@@ -110,7 +110,7 @@ const ExtendedGame: React.FC = () => {
                 required
               />
             </Form.Group>
-            <Button variant="primary" type="submit">
+            <Button variant="info" className="my-3 mb-3 p-2" type="submit">
               Oblicz Wypłaty
             </Button>
           </Form>
