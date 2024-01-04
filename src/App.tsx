@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { HashRouter, Routes, Route } from 'react-router-dom';
 import { HomePage, TheoryPage, ModelPage, HawkDovePage, PrisonersPage, HawkDoveSpacePage, NotFound, WhatisgamePage, RockpaperPage, BiologymodelPage, MS_Haigh, ExtendedHawkDovePage, SIRModelPage } from './pages';
 import { MainLayout } from './layout';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App: React.FC = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);

@@ -17,11 +17,10 @@ export const Navigation: React.FC<NavigationProps> = ({ isDarkMode, toggleDarkMo
     return (
       <div className={`navbar-gradient ${isDarkMode ? 'dark-mode' : ''}`}>
         <Container>
-          <Navbar expand="lg">
+          <Navbar expand="lg" variant={isDarkMode ? 'dark' : 'light'}>
             <LinkContainer to="/home">
               {/* Apply styles conditionally based on isDarkMode */}
               <Navbar.Brand style={{ color: isDarkMode ? 'white !important' : 'black !important', transition: 'color 0.5s ease' }}>GameCellDynamics</Navbar.Brand>
-
             </LinkContainer>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
