@@ -53,9 +53,9 @@ export const RockpaperPage: React.FC = () => {
       // Dodaj etykiety osi x i y
       ctx.fillStyle = 'black';
       ctx.font = '12px Arial';
-      ctx.fillText('Rock', canvas.width - 20, canvas.height - 5);
-      ctx.fillText('Scissors', 5, canvas.height - 5);
-      ctx.fillText('Paper', canvas.width / 2 - 15, 15);
+      ctx.fillText('Paper', 5, 15);
+      ctx.fillText('Rock', canvas.width - 30, 15);
+      ctx.fillText('Scissors',5, canvas.height - 5);
 
       points.forEach((point) => {
         ctx.fillStyle = point.color;
@@ -92,9 +92,9 @@ export const RockpaperPage: React.FC = () => {
           <tbody>
             <tr>
               <td></td>
+              <td>Paper</td>
               <td>Rock</td>
               <td>Scissors</td>
-              <td>Paper</td>
             </tr>
             {A.map((row, i) => (
               <tr key={i}>
@@ -113,6 +113,7 @@ export const RockpaperPage: React.FC = () => {
           </tbody>
         </table>
       </div>
+      <div className='break'>&nbsp;</div>
       <canvas ref={canvasRef} width={400} height={400} style={{ border: '1px solid black' }} />
     </div>
   );

@@ -1,8 +1,8 @@
 import React from 'react';
 import './ExtendedHawkDovePage.css';
 
-import ExtendedHawkDoveGame from '../../components/ExtendedHawkDoveGameTable';
-import ExtendedGame from '../../components/ExtendedGame';
+import ExtendedHawkDoveGame from '../../../components/ExtendedHawkDoveGameTable';
+import ExtendedGame from '../../../components/ExtendedGame';
 
 export const ExtendedHawkDovePage = () => {
   return (

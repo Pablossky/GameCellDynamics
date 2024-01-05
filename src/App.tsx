@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { HashRouter, Routes, Route } from 'react-router-dom';
-import { HomePage, TheoryPage, ModelPage, HawkDovePage, PrisonersPage, HawkDoveSpacePage, NotFound, WhatisgamePage, RockpaperPage, BiologymodelPage, MS_Haigh, ExtendedHawkDovePage, SIRModelPage } from './pages';
+import { HomePage, TheoryPage, ModelPage, ReplicatorPage, HawkDovePage, PrisonersPage, HawkDoveSpacePage, NotFound, WhatisgamePage, RockpaperPage, BiologymodelPage, MS_Haigh, ExtendedHawkDovePage, SIRModelPage } from './pages';
 import { MainLayout } from './layout';
 
 const App: React.FC = () => {
@@ -24,6 +24,7 @@ const App: React.FC = () => {
             <Route path="/model" element={<ModelPage />} />
             <Route path="/theory" element={<TheoryPage />} />
             <Route path="/whatisgame" element={<WhatisgamePage />} />
+            <Route path="/replicator" element={<ReplicatorPage />} />
             <Route path="/mshaigh" element={<MS_Haigh />} />
             <Route path="/biologymodels" element={<BiologymodelPage />} />
             <Route path="/hawkdove" element={<HawkDovePage />} />

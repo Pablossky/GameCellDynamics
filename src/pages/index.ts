@@ -1,13 +1,19 @@
 export { HomePage } from "./homePage/HomePage";
-export { ModelPage } from "./modelPage/ModelPage";
-export { TheoryPage } from "./theoryPage/TheoryPage";
-export { WhatisgamePage } from "./whatisgamePage/WhatisgamePage";
-export { ExtendedHawkDovePage } from "./extendedhawkdovePage/ExtendedHawkDovePage";
-export { MS_Haigh } from "./mshaighPage/MshaighPage";
-export { BiologymodelPage } from "./biologymodelPage/BiologymodelPage";
-export { RockpaperPage } from "./rockpaperPage/RockpaperPage";
-export { HawkDovePage } from "./hawkdovePage/HawkDovePage";
-export { HawkDoveSpacePage } from "./hawkdovespacePage/HawkDoveSpacePage";
-export { PrisonersPage } from "./prisonersPage/PrisonersPage";
-export { SIRModelPage } from "./sirPage/SirPage";
+
+
+export { ModelPage } from "./theory/modelPage/ModelPage";
+export { TheoryPage } from "./theory/theoryPage/TheoryPage";
+export { WhatisgamePage } from "./theory/whatisgamePage/WhatisgamePage";
+export { BiologymodelPage } from "./theory/biologymodelPage/BiologymodelPage";
+export { ReplicatorPage } from "./theory/replicatorPage/ReplicatorPage";
+
+
+export { RockpaperPage } from "./simulators/rockpaperPage/RockpaperPage";
+export { HawkDovePage } from "./simulators/hawkdovePage/HawkDovePage";
+export { HawkDoveSpacePage } from "./simulators/hawkdovespacePage/HawkDoveSpacePage";
+export { PrisonersPage } from "./simulators/prisonersPage/PrisonersPage";
+export { SIRModelPage } from "./simulators/sirPage/SirPage";
+export { ExtendedHawkDovePage } from "./simulators/extendedhawkdovePage/ExtendedHawkDovePage";
+export { MS_Haigh } from "./simulators/mshaighPage/MshaighPage";
+
 export { NotFound } from "./NotFound";

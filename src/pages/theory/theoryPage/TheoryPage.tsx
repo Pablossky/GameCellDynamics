@@ -4,6 +4,13 @@ import { Container, Row, Col } from 'react-bootstrap';
 import './TheoryPage.css';
 
 export const TheoryPage = () => {
+
+  const bibliography = [
+    { title: 'Game-Theoretical Models in Biology', author: 'Mark Broom, Jan Rychtar', year: 2013 },
+    { title: 'The Logic of Animal Conflict', author: 'Maynard Smith, J., & Price, G. R.', year: 1973 },
+    // Dodaj więcej obiektów, jeśli masz więcej publikacji
+  ];
+
     return (
         <div className="container-padding">
             <Container>
@@ -33,8 +40,8 @@ export const TheoryPage = () => {
         <Link to="/biologymodels">
           <button className="btn btn-info mx-2 mr-2 mb-2">Modele biologiczne</button>
         </Link>
-        <Link to="/section3">
-          <button className="btn btn-info mx-2 mr-2 mb-2">Button 3</button>
+        <Link to="/replicator">
+          <button className="btn btn-info mx-2 mr-2 mb-2">Dynamika replikatora</button>
         </Link>
         <Link to="/button4">
           <button className="btn btn-info mx-2 mr-2 mb-2">Button 4</button>
@@ -52,6 +59,19 @@ export const TheoryPage = () => {
           <button className="btn btn-info mx-2 mb-2">Button 8</button>
         </Link>
       </div>
+      <Container className="mt-4">
+        <h2 className="text-center mb-3">Bibliografia</h2>
+        <Row>
+          <Col>
+            {/* Generowanie elementów JSX na podstawie danych o publikacjach */}
+            {bibliography.map((publication, index) => (
+              <p key={index}>
+                <strong>Tytuł:</strong> {publication.title}, <strong>Autor:</strong> {publication.author}, <strong>Rok:</strong> {publication.year}
+              </p>
+            ))}
+          </Col>
+        </Row>
+      </Container>
     </div>
   );
 };
