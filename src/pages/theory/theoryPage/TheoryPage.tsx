@@ -8,6 +8,7 @@ export const TheoryPage = () => {
   const bibliography = [
     { title: 'Game-Theoretical Models in Biology', author: 'Mark Broom, Jan Rychtar', year: 2013 },
     { title: 'The Logic of Animal Conflict', author: 'Maynard Smith, J., & Price, G. R.', year: 1973 },
+    { title: 'Nash equilibrium', author: 'John Nash', year: 1950 },
     // Dodaj więcej obiektów, jeśli masz więcej publikacji
   ];
 
@@ -43,11 +44,11 @@ export const TheoryPage = () => {
         <Link to="/replicator">
           <button className="btn btn-info mx-2 mr-2 mb-2">Dynamika replikatora</button>
         </Link>
-        <Link to="/button4">
-          <button className="btn btn-info mx-2 mr-2 mb-2">Button 4</button>
+        <Link to="/strategy">
+          <button className="btn btn-info mx-2 mr-2 mb-2">Strategie i Równowagi</button>
         </Link>
-        <Link to="/button5">
-          <button className="btn btn-info mx-2 mr-2 mb-2">Button 5</button>
+        <Link to="/dynamics">
+          <button className="btn btn-info mx-2 mr-2 mb-2">Dynamika populacji komórkowych</button>
         </Link>
         <Link to="/button6">
           <button className="btn btn-info mx-2 mr-2 mb-2">Button 6</button>
