@@ -19,7 +19,6 @@ export const Navigation: React.FC<NavigationProps> = ({ isDarkMode, toggleDarkMo
         <Container>
           <Navbar expand="lg" variant={isDarkMode ? 'dark' : 'light'}>
             <LinkContainer to="/home">
-              {/* Apply styles conditionally based on isDarkMode */}
               <Navbar.Brand style={{ color: isDarkMode ? 'white !important' : 'black !important', transition: 'color 0.5s ease' }}>GameCellDynamics</Navbar.Brand>
             </LinkContainer>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -77,6 +76,11 @@ export const Navigation: React.FC<NavigationProps> = ({ isDarkMode, toggleDarkMo
                 <Dropdown.Item>
                   <LinkContainer to="/mshaigh">
                     <Nav.Link>MS.Haigh</Nav.Link>
+                  </LinkContainer>
+                </Dropdown.Item>
+                <Dropdown.Item>
+                  <LinkContainer to="/nash">
+                    <Nav.Link>Nash Equilibrium</Nav.Link>
                   </LinkContainer>
                 </Dropdown.Item>
               </DropdownButton>

@@ -17,6 +17,7 @@ export { PrisonersPage } from "./simulators/prisonersPage/PrisonersPage";
 export { SIRModelPage } from "./simulators/sirPage/SirPage";
 export { ExtendedHawkDovePage } from "./simulators/extendedhawkdovePage/ExtendedHawkDovePage";
 export { MS_Haigh } from "./simulators/mshaighPage/MshaighPage";
+export { NashPage } from "./simulators/nashPage/NashPage";
 
 
 export { NotFound } from "./NotFound";
